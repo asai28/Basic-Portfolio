@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    float: left;
+    position: fixed;
+    color: gray;
+    background-color: lightgray;
+    height: 70px;
+    top:0;
+    padding-left: 150px;
+    margin: auto;
+}
+
+body{
+    color: gray;
+    position: relative;
+    background-image: url(../images/download.jpg)
+    
+}
+
+#name-slot{
+    
+    float: left;
+    background-color: #4aaaa5;
+    height: 70px;
+    width: 400px;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+    font-size:30px;
+    z-index: score 2;
+    margin-left: 120px;
+    padding-right: 0px;
+}
+
+#further-info{
+    margin-top: 25px;
+    float:left;
+    color: gray;
+    background-color: lightgray;
+    height: 45px;
+    top:0;
+    padding-left: 200px;
+    padding-right: 455px;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif'
+}
+
+h2{
+    color: #3FBFBF;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+}
+
+.footer-line{
+    background-color: #4aaaa5;
+    height: 10px;
+    width: 100%;
+    bottom: 50px;
+    margin-bottom: 25px;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    color: white;
+    background-color: gray;
+    height: 50px;
+    text-align: center;
+    text-align: bottom;
+    font-size: 10px;
+    position: fixed;
+    bottom: 0px;
+}
+
+.copyright{
+width: 100%;
+top: 15px;
+text-align: bottom;
+    
+}
+.wrapper{
+    position: relative;
+    margin : 100px auto;
+    background-color: white;
+    color: #777777;
+    width: 960px; 
+    padding: 25px 25px;
+    font-family: 'Times New Roman', Times, serif;
+    height: auto;
+    overflow:hidden;
+}
+
+a{
+    color: #777777;
+    text-decoration:none;
+}
+
+img{
+    float: left;
+    margin: 25px 25px;
+    width: auto;
+    height: 200px;
+}
+
+.text{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+button{
+    background-color: #4aaaa5;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+}
+
+#img1{
+    margin-top: 50px;
+padding: 10px 10px;
+float: left;
+width: auto;
+height:200px;
+
+}
+
+#img2{
+    margin-top: 50px;
+    padding: 10px 10px;
+    float: left;
+    width: auto;
+height: 200px;
+
+}
+
+#img3{
+    clear: both;
+    padding: 10px 10px;
+}
+
+#img4{
+    float: both;
+    padding: 10px 10px;
+}
+
+#img5{
+    clear: both;
+    padding: 10px 10px;
+}
